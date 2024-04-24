@@ -48,7 +48,7 @@ using json = zeep::json::element;
 // --------------------------------------------------------------------
 
 // The regex to check and/or read FastA files
-const std::regex kIDRx(R"(^>pdb-entity\|(\w{4,})\|(\w+)\|([^ |]+)( .*)?)");
+const std::regex kIDRx(R"(^>pdb-entity\|(\w{4,})\|(\w+)\|([^ |]+)?( .*)?)");
 
 // --------------------------------------------------------------------
 
